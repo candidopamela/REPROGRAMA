@@ -1,0 +1,133 @@
+/* seletor{
+    propriedade: valor;
+} */
+* {
+    box-sizing: border-box;
+}
+
+/* PADRÃO*/
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/* BANNER*/
+
+.banner {
+ background-image: url(../img/banner-bg.png);
+ height: 600px;
+ background-size:cover;
+ background-repeat:no-repeat; 
+ text-align: center; 
+ padding-top: 20vh ; 
+ 
+}
+/* LINK EXTERNO */ 
+.banner-titulo {
+    color: white; 
+    font-family: 'PT Sans', sans-serif;
+    font-size: 3rem
+     
+}
+.banner-subtitulo {
+    color: white; 
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    padding-top: 5vh;
+    font-size: 1.2rem  
+}
+.container {
+    margin: 3rem 10rem;
+  }
+.falamais{
+      color: #f48835;
+      font-family: 'ubuntu' , sans-serif;
+      font-weight: bold;
+      font-size: 30px; 
+
+  }
+.sobre-mim-descricao, .sobre-mim-habilidades {
+      width: 49%;
+      display: inline-block; 
+      line-height: 1.5rem;
+      font-size: 1rem;
+      text-align: justify;
+      color: rgb(81, 81, 81)
+  }
+.simbolo{
+    color: #f48835;
+    font-family: 'ubuntu' , sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* BOTÕES */ 
+.btn {
+    color: #f48835;
+    text-decoration: none;
+    padding: 0.5rem  0.8rem 0.5rem 0.8rem;
+    border-radius:20px;
+    font-weight: 600;
+    background-color: white;
+  }
+  .btn-sobre-mim {
+    border: 2px solid #f48835;
+    color:#f48835;
+    text-decoration: none;
+    background-color:white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+    font-weight: bold;
+    line-height: 50px; 
+  }
+.sobre-mim-habilidades{
+    width: 45%;
+    display: inline-block;
+    line-height: 1.5rem;
+}
+.habilidade{
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: bold;
+    color: #f48835;
+    font-size: 16px;
+}
+
+  /* SEÇÃO REDES SOCIAIS*/
+  .redes-sociais-link {
+      background-color: #f48835;
+      color: white;
+      display: inline-block;
+      padding: 2rem 2rem;
+      text-align: center;
+      border-radius: 10px;
+      margin-left: 0.5rem;
+      text-decoration: none;    
+
+  }
+ .redes-sociais-img {
+       max-width: 70px;
+       min-height: 70px;
+  }
+
+.redes-sociais-titulo,
+.redes-sociais-subtitulo {
+      font-size: 1rem;
+      font-family: 'Ubuntu', sans-serif;
+      text-decoration: none;
+ }
+
+.rodape {
+      text-align: center;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: bold;
+      color: #f48835; 
+      font-size: 15px;
+      padding: 1rem 1rem;
+  }
+.image-normal {
+     align-content: center;
+     margin: 140px;
+}

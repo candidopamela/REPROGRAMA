@@ -1,0 +1,16 @@
+/* seletor{
+    propriedade: valor;
+} */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* BANNER*/
+
+.banner {
+ background-color: brown;
+}

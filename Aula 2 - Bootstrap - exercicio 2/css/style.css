@@ -1,0 +1,146 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.about, .contact {
+    padding: 30px 0;
+}
+.navbar{
+    background-color: #F48835;
+}
+
+
+.title-section {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.portfólio {
+    margin-top: 30px;
+}
+
+.text-section {
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 0;
+}
+.text-about, .text-portfólio{
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 15px;
+    margin:35px;
+    text-align: center;
+}
+.container-card{
+    margin-left: 11%;
+}
+.about-img{
+    height: 235px;
+    width: 235px;
+    background-color: #ddd;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.form{
+    width: 70%;
+    margin-left: 13%;
+    margin-top: 30px;
+}
+.form-contact {
+    margin: 0 auto;
+}
+
+
+
+#nav-footer{
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: -10%;
+
+}
+#nav-footer-link{
+    display: flex;
+   
+}
+#nav-footer-link p {
+    margin-left: 10px;
+}
+
+/* COMEÇA O CSS DO CURRICULO */
+
+.main{
+    display: flex;
+}
+.titulo{
+    width: 100%;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: #D8463A;
+
+}
+.coluna2{
+    margin-top:60px;
+    width:50%; 
+    margin-left: 25%;
+}
+.titulo2{
+    color: #F48835;
+}
+.text-sobremim{
+    padding-bottom: 30px;
+    color: #666666;
+}
+.subtitulo1{
+    padding-bottom:48%;
+    padding-top: 15px;
+}
+.subtitulo3{
+    padding-bottom: 60px;
+    padding-top: 580px;
+}
+.formação{
+    padding-bottom:30px; 
+}
+.formação-text{
+    color: #666666;
+}
+.habilidades{
+    padding-bottom: 50px;
+}
+.habilidade-text{
+    color: #F48835;
+    padding-top: 3%;
+}
+.progress-bar{
+    background-color: #D8463A;
+}
+.subtitulo4{
+    padding-top: 275px;
+}
+.cargo-titulo{
+   color: #F48835;
+   padding-top: 20px;
+}
+.cargo-descrição, .cargo-duração, .cargo-local{
+    color: #666666;   
+}
+.cargo-local, .cargo-duração{
+    font-weight:lighter;
+}
