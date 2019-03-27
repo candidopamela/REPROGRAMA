@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+}
+
+body{
+    color: grey;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* navbar */
+.nav_lista{
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+}
+
+nav a:hover {
+    color: #FF2223;
+}
+
+.nav_lista-link {
+    text-decoration: none;
+}
+
+ul {
+    /* width: 100%; */
+    /* height: 100%; */
+    padding: 0 20%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+}
+
+
+/* banner */
+.banner-img {
+    height: 100vh;
+    background-image: url("./../banner.jpg");
+    background-size:cover;
+    background-repeat:no-repeat; 
+}
+
+.banner{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner_title{
+    padding-top: 45vh;
+    font-size: 48px;
+}
+
+.seta{
+    padding: 50px;
+}
+
+.seta_img{
+    width: 2%;
+}
+
+
+/* projetos */
+.projetos_title, .titles {
+    padding: 30px;
+    color: #f48835;
+    text-align: center;
+}
+
+.site {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.site_img {
+    height: 235px;
+    width: 235px;
+    background-color: #ddd;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.site_title{
+    width: 90%;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(94, 94, 94);
+}
+
+
+/* sobre mim */
+.sobreMim {
+    font-family: 'Open Sans regular', sans-serif;
+    background-color: #f48835;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.titles_sobre {
+    color:white;
+}
+
+.sobreMim_description {
+    padding-top: 10px;
+}
+
+.sobreMim_img {
+    height: 235px;
+    width: 235px;
+    margin: 0 25px;
+    background-color: #ddd;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+
+/* contato */
+.contato_title {
+    font-size: 20px;
+    color: #f48835;
+}
+
+.contato{
+    height: 35vh;
+}
+
+.contato_icons {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contato_img{
+    margin: 0 35px;
+}
+
+.contato_img-icon{
+    width: 75px;
+}
+
+
+/* -------- */
+.btn{
+    padding: 20px;
+    text-align: center;
+}
+
+.btn_link{
+    padding: 0.5rem 0.8rem;
+    border: 2px solid #f48835;
+    border-radius: 20px;
+    color: #f48835;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.btn_white{
+    padding: 0.5rem 0.8rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+
+/* footer */
+footer{
+    padding: 10px;
+    background-color: #f48835;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+header {
+    background-color: #f48835;
+}
+
+
+@media screen and (min-width: 768px) {
+    ul {
+        width: 100%;
+        padding: 10px 10%;
+    }
+
+    .projetos {
+        height: 85vh;
+    }
+
+    .projetos_title {
+        font-size: 25px;
+    }
+
+    .projetos_site {
+        display: flex;
+    }
+
+    .titles_sobre {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .seta_img {
+        width: 12%;
+    }
+
+    .sobreMim_description {
+        width: 70%;
+        padding-right: 30px; 
+        display: inline-block;
+    }
+
+    .contato_title {
+         font-size: 18px;
+         padding-top:41px;
+    }
+    
+    .contato_img-icon {
+        width: 45px;
+    }
+    
+
+} 
